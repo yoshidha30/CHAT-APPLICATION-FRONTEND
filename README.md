@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+"COMPANY": CODTECH IT SOLUTIONS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+"NAME": M YOSHIDHA
 
-## Available Scripts
+"INTERN ID": CT04DF771
 
-In the project directory, you can run:
+"DOMAIN": FULL STACK WEB DEVELOPMENT
 
-### `npm start`
+"DURATION": 4 WEEKS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+"MENTOR": NEELA SANTHOSH KUMAR
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+# TASK DESCRIPTION:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  
+Overview:
+       The frontend of this real-time chat application is crafted using React, with the aim of replicating a WhatsApp-like user experience. Built with Create React App, the project ensures a clean structure and easy scalability. Users can set their names, view online users, and instantly exchange messages in real time. The UI is designed to be clean, responsive, and familiar — closely mimicking the look and feel of modern messaging apps.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Features:
+The application supports live messaging, a typing indicator, emoji support, and accurate timestamps for each message. Emojis add fun and expressiveness, while the real-time typing status keeps users informed of activity within the chat. A list of online users is dynamically updated to show who is currently connected, creating a more engaging and interactive environment. Messages are timestamped using JavaScript’s Date object and are displayed in a familiar 🕒 hh:mm:ss am/pm format.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ Technical Details:
+Socket communication is handled using the socket.io-client library. All React components — primarily App.js — use React Hooks to manage state and lifecycle events effectively. The app connects to a backend server on localhost:3001 and runs on localhost:3000. Styling is done with modern CSS to replicate WhatsApp’s interface, including message bubbles, scrollable chat areas, and input boxes.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ Project Files:
+Key files include App.js, index.js, and supporting assets. The package.json and package-lock.json define and lock all dependencies like React and socket.io-client. The node_modules folder is excluded from submission, as it can be regenerated using npm install.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+How to Run:
+To run the app, navigate to the frontend directory and run:
+    npm install  
+    npm start  
+This launches the development server with live reloading at http://localhost:3000.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# OUTPUT:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+![Image](https://github.com/user-attachments/assets/3662ba00-8c55-465a-9195-7cc6b1fcadd1)
+![Image](https://github.com/user-attachments/assets/04a8efa1-1f0a-4c72-94cc-8001ed098dc7)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
